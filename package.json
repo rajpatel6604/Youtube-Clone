@@ -4,9 +4,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":" nodemon src/index.js"
+    "dev": " nodemon src/index.js"
   },
   "author": "raj",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
+  }
 }
